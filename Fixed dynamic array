@@ -1,0 +1,5 @@
+def fixed_dynamic_array():
+    arr = [0] * 5  # fixed size list
+    for i in range(5):
+        arr[i] = i * 2
+    print(arr)
