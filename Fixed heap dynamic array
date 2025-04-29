@@ -1,0 +1,11 @@
+#include <iostream>
+void fixedHeapDynamicArray(int size) {
+    int* arr = new int[size]; // heap allocation
+    for(int i = 0; i < size; ++i) {
+        arr[i] = i * 3;
+    }
+    for(int i = 0; i < size; ++i) {
+        std::cout << arr[i] << " ";
+    }
+    delete[] arr; // free memory
+}
