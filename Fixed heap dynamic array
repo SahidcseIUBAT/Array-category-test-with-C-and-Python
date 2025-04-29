@@ -1,0 +1,5 @@
+def fixed_heap_dynamic_array(size):
+    arr = [0] * size
+    for i in range(size):
+        arr[i] = i * 3
+    print(arr)
