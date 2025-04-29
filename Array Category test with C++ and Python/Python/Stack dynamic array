@@ -1,0 +1,3 @@
+def stack_dynamic_array(size):
+    arr = [i + 1 for i in range(size)]
+    print(arr)
