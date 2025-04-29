@@ -1,0 +1,10 @@
+#include <iostream>
+void stackDynamicArray(int size) {
+    int arr[size]; // VLA (Variable Length Array) - works in GCC
+    for(int i = 0; i < size; ++i) {
+        arr[i] = i + 1;
+    }
+    for(int i = 0; i < size; ++i) {
+        std::cout << arr[i] << " ";
+    }
+}
